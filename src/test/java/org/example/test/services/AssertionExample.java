@@ -56,6 +56,7 @@ public class AssertionExample {
         });
 
         System.out.println("Testing done");
+//        similarly we can test for multiple options.
 
     }
 
