@@ -56,7 +56,7 @@ public class AssertionExample {
         });
 
         System.out.println("Testing done");
-        System.out.println("Testing some assertion methods");
+        System.out.println("Testing done for Runtimeexception throw");
 //        similarly we can test for multiple options.
 
     }
