@@ -56,6 +56,7 @@ public class AssertionExample {
         });
 
         System.out.println("Testing done");
+        System.out.println("Testing some assertion methods");
 //        similarly we can test for multiple options.
 
     }
