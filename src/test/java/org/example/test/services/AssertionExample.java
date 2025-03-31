@@ -3,6 +3,7 @@ package org.example.test.services;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 
@@ -51,9 +52,13 @@ public class AssertionExample {
 //            List<Integer> result = Arrays.asList(1,2,3,4,5);
 //            Assertions.assertIterableEquals(expected, result);
 //        Assertions.assertThrows(RuntimeException.class, () -> {
-////            System.out.println("This is a test exception");
+//            System.out.println("This is a test exception");
 //            throw new RuntimeException("This is a test exception");
 //        });
+
+        Assertions.assertTimeout(Duration.ofMillis(3000),() -> {
+            Thread.sleep(2000);
+        });
 
 //        System.out.println("Testing done");
         System.out.println("Testing done for Runtimeexception throw");
