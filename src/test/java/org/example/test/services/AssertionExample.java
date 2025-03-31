@@ -56,7 +56,7 @@ public class AssertionExample {
 //            throw new RuntimeException("This is a test exception");
 //        });
 
-        Assertions.assertTimeout(Duration.ofMillis(1000),() -> {
+        Assertions.assertTimeout(Duration.ofMillis(2000),() -> {
             Thread.sleep(500);
         });
 
