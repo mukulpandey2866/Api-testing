@@ -50,10 +50,10 @@ public class AssertionExample {
 //            List<Integer> expected = Arrays.asList(1,2,3,4,5);
 //            List<Integer> result = Arrays.asList(1,2,3,4,5);
 //            Assertions.assertIterableEquals(expected, result);
-        Assertions.assertThrows(RuntimeException.class, () -> {
-//            System.out.println("This is a test exception");
-            throw new RuntimeException("This is a test exception");
-        });
+//        Assertions.assertThrows(RuntimeException.class, () -> {
+////            System.out.println("This is a test exception");
+//            throw new RuntimeException("This is a test exception");
+//        });
 
 //        System.out.println("Testing done");
         System.out.println("Testing done for Runtimeexception throw");
