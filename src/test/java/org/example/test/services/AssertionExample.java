@@ -57,7 +57,7 @@ public class AssertionExample {
 //        });
 
         Assertions.assertTimeout(Duration.ofMillis(1000),() -> {
-            Thread.sleep(2000);
+            Thread.sleep(500);
         });
 
 //        System.out.println("Testing done");
